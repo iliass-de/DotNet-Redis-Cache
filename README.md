@@ -25,7 +25,7 @@ Before running this application, make sure you have the following installed:
 2. Navigate to the project directory:
 
     ```bash
-    cd DotNet-Redis-Cache
+    cd DotNet-Redis-Cache/src
     ```
 
 3. Restore the dependencies:
