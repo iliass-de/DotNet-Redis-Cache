@@ -1,0 +1,9 @@
+global using Xunit;
+global using DotNet.Redis.Entities;
+global using DotNet.Redis.Repositories;
+global using Microsoft.EntityFrameworkCore;
+global using Moq;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using DotNet.Redis.Data;
