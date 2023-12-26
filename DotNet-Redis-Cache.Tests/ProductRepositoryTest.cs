@@ -3,12 +3,12 @@ namespace DotNet_Redis_Cache.Tests
 {
   
 
-    public class ProductRepositoyTest
+    public class ProductRepositoryTest
     {
         private readonly Mock<DataContext> _dbContextMock;
         private readonly ProductRepository _productRepository;
 
-        public ProductRepositoyTest()
+        public ProductRepositoryTest()
         {
             _dbContextMock = new Mock<DataContext>();
             _productRepository = new ProductRepository(_dbContextMock.Object);
